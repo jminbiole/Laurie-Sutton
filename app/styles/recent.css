@@ -1,0 +1,42 @@
+.hero__recent {
+  min-height: 100vh;
+  display: flex;
+}
+.blurb__grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.blurb__item {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: calc(100% / 2 - 2rem);
+  margin: 1rem;
+  height: 100%;
+  max-height: 30rem;
+  background-image: url('http://4f20hr315ubj4bnoqw1pxdov.wpengine.netdna-cdn.com/wp-content/uploads/2014/01/inspirational-photo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blurb__textbox {
+  color: #fff;
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-family: var(--font1);
+  background: #666;
+  opacity: .8;
+}
+.blurb__title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+
+}
+.blurb__text {
+  padding: 0 1.5rem;
+}
+.blurb__date {
+  text-align: center;
+  padding: 1rem 0;
+}

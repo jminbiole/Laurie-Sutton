@@ -1,0 +1,49 @@
+.hero__landing {
+  background-image: url('http://www.londonplaywrightsblog.com/wp-content/uploads/2015/09/a-writers-desk.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titlebox {
+  background: #000;
+  opacity: .8;
+  min-width: 50%;
+  color: #fff;
+  text-align: center;
+}
+hr {
+  width: 25%;
+  margin: auto;
+}
+.title__name {
+  font-family: var(--font1);
+  font-size: 3rem;
+  margin: 0;
+  padding: 1rem 0 .5rem 0;
+}
+.subtitle__landing {
+  font-family: var(--font2);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+.btnbox__landing {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.btn__landing {
+  font-size: 1.5rem;
+  padding: .5rem 1rem .5rem 1.5rem;
+  background: #eee;
+  border: .1rem solid #eee;
+  opacity: .95;
+  border-radius: 8%;
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+}

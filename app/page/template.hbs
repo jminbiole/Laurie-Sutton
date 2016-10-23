@@ -1,0 +1,38 @@
+<div class="app">
+  <div class="hero__landing">
+    <div class="titlebox">
+      <p class="title__name">Laurie M. Sutton</p>
+      <hr>
+      <p class="subtitle__landing">Blogs from me to you.</p>
+    </div>
+    <div class="btnbox__landing">
+      <a href="#recent" class="btn__landing">
+        <p class="btn__landing" {{action "scrollToRecent"}}>Blogs<i class="fa fa-arrow-down fa-fw" aria-hidden="true"></i></p>
+      </a>
+    </div>
+  </div>
+  <a name="recent"></a>
+  <div class="hero__recent">
+    <div class="blurb__grid">
+      <div class="blurb__item">
+        <div class="blurb__textbox">
+          <div class="blurb__title">This is a blog title</div>
+          <div class="blurb__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...</div>
+          <div class="blurb__date">October 22, 2016</div>
+        </div>
+      </div>
+      <div class="blurb__item">
+        <div class="blurb__textbox">
+          <div class="blurb__title">This is a blog title</div>
+          <div class="blurb__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...</div>
+          <div class="blurb__date">October 22, 2016</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="app__footer">
+  <p class="copyright">&copy; Laurie Sutton</p>
+</div>
+{{liquid-outlet}}

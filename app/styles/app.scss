@@ -1,0 +1,25 @@
+@import "landing";
+@import "recent";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  --font1: 'Playfair Display', 'Helvetica Neue', Arial, sans-serif;
+  --font2: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+.linkto {
+  text-decoration: none;
+}
+.app {
+  min-height: 100vh;
+
+  &__footer {
+    background: #000;
+    color: #fff;
+    padding: .5rem 0;
+    text-align: center;
+  }
+}
