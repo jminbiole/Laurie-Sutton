@@ -15,6 +15,8 @@
     font-size: 1.3rem;
     font-family: var(--font5);
     border-bottom: 2px solid #da1d1d;
+    text-decoration: none;
+    color: #fff;
     &:hover {
       border-bottom: 2px solid #ac1818;
       transform: scale(1.1);
