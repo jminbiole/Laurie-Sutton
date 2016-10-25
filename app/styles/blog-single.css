@@ -1,0 +1,42 @@
+.hero__single {
+  min-height: 80vh;
+}
+.container__single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background: $red;
+  color: #fff;
+}
+.blog-pic {
+  background-image: url('/images/gypsy.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.single__textbox {
+  display: flex;
+  flex-direction: column;
+  max-width: 45rem;
+  margin-bottom: 5rem;
+}
+.title__single {
+  text-align: center;
+  padding: 2rem;
+  font-size: 3rem;
+  font-family: var(--font1);
+}
+.single__post {
+  padding: 2rem;
+  font-family: var(--font4);
+  font-size: 1.2rem;
+  background: #fff;
+  color: #000;
+
+}
