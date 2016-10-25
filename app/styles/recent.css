@@ -34,6 +34,7 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  align-items: center;
   color: #fff;
   margin: 0 auto;
   padding: 1rem 0;
@@ -54,4 +55,14 @@
 .blurb__date {
   text-align: center;
   padding: 1rem 0;
+}
+.continue {
+  font-size: 1rem;
+  width: 10rem;
+  padding: .6rem;
+  background: $red;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 3%;
 }

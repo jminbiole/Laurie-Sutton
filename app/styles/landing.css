@@ -4,7 +4,7 @@
   background: #da1d1d;
   color: #fff;
   justify-content: center;
-  padding: 1rem;
+  padding: .75rem;
 }
 .nav-links {
   display: flex;
@@ -13,6 +13,12 @@
   &__item {
     margin: 0 1rem;
     font-size: 1.3rem;
+    font-family: var(--font5);
+    border-bottom: 2px solid #da1d1d;
+    &:hover {
+      border-bottom: 2px solid #ac1818;
+      transform: scale(1.1);
+    }
   }
 }
 
