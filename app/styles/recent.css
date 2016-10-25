@@ -47,16 +47,18 @@
 .blurb__title {
   font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 1rem;
-
+  font-family: var(--font1);
 }
 .blurb__text {
+  font-family: var(--font4);
   padding: 0 1.5rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .blurb__date {
   text-align: center;
   padding: 1rem 0;
+  font-family: var(--font6);
+  font-size: 1.5rem;
 }
 .continue {
   font-size: 1rem;
