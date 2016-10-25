@@ -2,6 +2,7 @@
 @import "landing";
 @import "recent";
 @import "about";
+@import "blogs";
 
 
 * {
@@ -10,7 +11,7 @@
 }
 
 html {
-  --font1: 'Playfair Display', 'Helvetica Neue', Arial, sans-serif;
+  --font1: 'Satisfy', 'Helvetica Neue', Arial, sans-serif;
   --font2: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
   --font3: 'Lovers Quarrel', 'Helvetica Neue', Arial, sans-serif;
   --font4: 'Cormorant Garamond', 'Helvetica Neue', Arial, sans-serif;

@@ -46,7 +46,7 @@
 .author {
   text-align: center;
   font-size: 1.2rem;
-  font-family: var(--font1);
+  font-family: var(--font2);
   margin-top: 1rem;
   font-style: italic;
 }
@@ -54,6 +54,7 @@ hr {
   width: 25%;
   margin: auto;
   border-color: $red;
+  margin: .4rem 0;
 }
 .title__name {
   font-family: var(--font4);

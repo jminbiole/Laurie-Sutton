@@ -1,8 +1,9 @@
 <nav>
   <div class="nav__textbox">
     <ul class="nav-links">
+      {{#link-to 'page' class="nav-links__item"}}Home{{/link-to}}
       {{#link-to 'about' class="nav-links__item"}}About{{/link-to}}
-      <li class="nav-links__item">Blogs</li>
+      {{#link-to 'blogs' class="nav-links__item"}}Blogs{{/link-to}}
       <li class="nav-links__item">Articles</li>
       <li class="nav-links__item">Books</li>
       <li class="nav-links__item">Work in progress</li>
