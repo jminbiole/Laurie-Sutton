@@ -7,18 +7,15 @@
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  background: $red;
-  color: #fff;
+
 }
 .blog-pic {
-  background-image: url('/images/gypsy.png');
+  background-image: url('http://s3-production.bobvila.com/blogs/wp-content/uploads/2013/07/oldshelf.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 40vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  background-attachment: fixed;
+  min-height: 30rem;
 }
 .single__textbox {
   display: flex;
@@ -29,14 +26,20 @@
 .title__single {
   text-align: center;
   padding: 2rem;
+  margin-top: 2.5rem;
   font-size: 3rem;
   font-family: var(--font1);
+  background: $red;
+  color: #fff;
 }
 .single__post {
-  padding: 2rem;
+  padding: 1rem 2rem 1rem;
   font-family: var(--font4);
   font-size: 1.2rem;
-  background: #fff;
-  color: #000;
+  border-left: .4rem solid $red;
+  border-right: .4rem solid $red;
 
+  &-last {
+    border-bottom: .4rem solid $red;
+  }
 }

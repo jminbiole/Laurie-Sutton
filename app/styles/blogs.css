@@ -74,4 +74,10 @@
   color: #fff;
   border: none;
   border-radius: 3%;
+  text-decoration: none;
+  font-family: var(--font4);
+}
+.fa-long-arrow-right {
+  vertical-align: middle;
+  font-size: 1.1rem;
 }

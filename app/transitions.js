@@ -16,7 +16,7 @@ export default function(){
     this.use('toUp', {
       use: [`flyTo`, { time2 }],
     }),
-    this.reverse('toDown', {
+    this.reverse('toRight', {
       use: [`flyTo`, { time2 }],
     })
   );
@@ -24,6 +24,16 @@ export default function(){
     this.fromRoute('about'),
     this.toRoute('blogs'),
     this.use('toUp', {
+      use: [`flyTo`, { time2 }],
+    }),
+    this.reverse('toDown', {
+      use: [`flyTo`, { time2 }],
+    })
+  );
+  this.transition(
+    this.fromRoute('blogs'),
+    this.toRoute('blog-single'),
+    this.use('fade', {
       use: [`flyTo`, { time2 }],
     }),
     this.reverse('toDown', {
