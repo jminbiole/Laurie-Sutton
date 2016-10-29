@@ -40,4 +40,24 @@ export default function(){
       use: [`flyTo`, { time2 }],
     })
   );
+  this.transition(
+    this.fromRoute('blog-single'),
+    this.toRoute('page'),
+    this.use('crossFade', {
+      use: [`flyTo`, { time2 }],
+    }),
+    this.reverse('fade', {
+      use: [`flyTo`, { time2 }],
+    })
+  );
+  this.transition(
+    this.fromRoute('blog-single'),
+    this.toRoute('about'),
+    this.use('toLeft', {
+      use: [`flyTo`, { time2 }],
+    }),
+    this.reverse('fade', {
+      use: [`flyTo`, { time2 }],
+    })
+  );
 }

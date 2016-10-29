@@ -1,14 +1,6 @@
 .hero__single {
   min-height: 80vh;
 }
-.container__single {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-
-}
 .blog-pic {
   background-image: url('http://s3-production.bobvila.com/blogs/wp-content/uploads/2013/07/oldshelf.jpg');
   background-repeat: no-repeat;
@@ -17,10 +9,23 @@
   background-attachment: fixed;
   min-height: 30rem;
 }
+.container__single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background-image: url('https://media.freestocktextures.com/cache/4d/e6/4de6261b970deb804e557b9bb1dd44ad.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 .single__textbox {
   display: flex;
   flex-direction: column;
-  max-width: 45rem;
+  max-width: 50rem;
   margin-bottom: 5rem;
 }
 .title__single {
@@ -36,6 +41,7 @@
   padding: 1rem 2rem 1rem;
   font-family: var(--font4);
   font-size: 1.2rem;
+  background: #fff;
   border-left: .4rem solid $red;
   border-right: .4rem solid $red;
 
