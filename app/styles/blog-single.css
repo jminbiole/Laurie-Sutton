@@ -27,28 +27,30 @@
   flex-direction: column;
   max-width: 50rem;
   margin-bottom: 5rem;
+  outline: .4rem solid #614126;
+  margin-top: 2.5rem;
 }
 .title__single {
   text-align: center;
   padding: 2rem;
-  margin-top: 2.5rem;
   font-size: 3rem;
   font-family: var(--font1);
-  background: $red;
   color: #fff;
+  background: #614126;
+  border-bottom: .3rem solid $red;
 }
 .single__post {
   padding: 1rem 2rem 1rem;
   font-family: var(--font4);
   font-size: 1.2rem;
   background: #fff;
-  border-left: .4rem solid $red;
-  border-right: .4rem solid $red;
+  border-left: .3rem solid $red;
+  border-right: .3rem solid $red;
 
   &-first {
     padding-top: 2rem;
   }
   &-last {
-    border-bottom: .4rem solid $red;
+    border-bottom: .3rem solid $red;
   }
 }
