@@ -45,6 +45,9 @@
   border-left: .4rem solid $red;
   border-right: .4rem solid $red;
 
+  &-first {
+    padding-top: 2rem;
+  }
   &-last {
     border-bottom: .4rem solid $red;
   }
