@@ -1,0 +1,115 @@
+.progress-pic {
+  background-image: url('http://stacyennis.com/wp-content/uploads/2013/06/NotebookandPen.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 75vh;
+  width: 100%;
+  display: flex;
+}
+.progress__textbox  {
+ display: flex;
+ align-items: center;
+ padding: 0 4rem;
+}
+.progress__title {
+  color: #fff;
+  font-size: 4rem;
+  font-family: var(--font4);
+}
+.container__progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: #fff;
+  height: 100%;
+}
+.progress__section {
+  border: .2rem solid #000;
+  border-top: none;
+  max-width: 65rem;
+  margin: 4rem auto;
+  background: #f2f2f2;
+  border: .2rem solid #000;
+  box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.75);
+  padding: 1rem 0;
+  font-size: 1.2rem;
+
+  &-title {
+    text-align: center;
+    max-width: 50%;
+    width: 100%;
+    border-bottom: .2rem solid #000;
+    color: $red;
+    padding: 1rem 2rem;
+    font-size: 2.5rem;
+    font-family: var(--font5);
+    margin-bottom: 1rem;
+  }
+
+}
+.progress__blurb {
+  padding: 1rem 2rem;
+  line-height: 1.5;
+  font-family: var(--font4);
+  font-size: 1.3rem;
+}
+.voting__row {
+  max-width: 65rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+
+  &-item {
+    width: calc(100% / 3.25);
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  &-text {
+    border: .2rem solid #000;
+    background: #f2f2f2;
+    height: 15rem;
+    padding: 4rem;
+    width: 100%;
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: var(--font1);
+  }
+  }
+}
+.voting__row-circles {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+.overlay__progress {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 66rem;
+  height: 70%;
+  top: 0;
+  left: 0;
+  font-family: var(--font4);
+  border: .2rem solid #000;
+  background: $red;
+  text-align: center;
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  opacity: 0;
+  transition: opacity 600ms;
+  &:hover {
+    opacity: 1;
+  }
+
+  &-title {
+    font-size: 1.6rem;
+    font-family: var(--font5)
+  }
+}

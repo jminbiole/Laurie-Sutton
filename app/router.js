@@ -10,7 +10,8 @@ Router.map(function() {
   this.route('page', {path: '/'});
   this.route('about');
   this.route('blogs');
-    this.route('blog-single');
+  this.route('blog-single');
+  this.route('progress');
 });
 
 export default Router;

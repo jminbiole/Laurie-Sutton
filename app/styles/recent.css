@@ -10,16 +10,11 @@
 }
 .blurb__item {
   display: flex;
-  /*justify-content: flex-end;
-  flex-direction: column;*/
   width: calc(100% / 2 - 2rem);
   margin: 1rem;
   height: 100%;
   max-height: 30rem;
   position: relative;
-  /*background-image: url('http://vignette3.wikia.nocookie.net/villains/images/5/54/Katie_Ka-Boom.jpg/revision/latest?cb=20130531175732');
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 .overlay__grid-item {
   display: flex;
